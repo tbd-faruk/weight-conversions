@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "tbd-faruk/weight-conversions",
+    "description": "Weight Conversions",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "tbd-faruk",
+        "weight-conversions"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/tbd-faruk/weight-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Faruk Haider",
+            "email": "faruk@technobd.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Faruk\\WeightConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Faruk\\WeightConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
